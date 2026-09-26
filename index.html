@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Forge Fitness Studio — a strength and conditioning gym in Johannesburg. Small classes, real coaching, no ego.">
+<meta name="author" content="Forge Fitness Studio">
+<title>Forge Fitness Studio — Strength &amp; Conditioning Gym, Johannesburg</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">FORGE<span>.</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="primary-nav">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Johannesburg · Strength &amp; Conditioning</span>
+        <h1>Get stronger.<br>Build a body that <em>works.</em></h1>
+        <p class="lede">Forge is a small, coach-led gym for people who want real progress, not just a place to swipe a membership card. Barbell strength, conditioning and boxing — programmed, not guessed.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary">Book a free trial class</a>
+          <a href="#classes" class="btn btn-outline">See the schedule</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80" alt="A coach guiding a member through a barbell lift on the gym floor">
+        <div class="hero-stats">
+          <div><strong>420+</strong><small>Active members</small></div>
+          <div><strong>12</strong><small>Classes / week</small></div>
+          <div><strong>6</strong><small>Certified coaches</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="section-head">
+        <h2>Train your way</h2>
+        <p>Three formats, one coaching standard. Mix and match on any membership.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <span class="num">01</span>
+          <h3>Strength</h3>
+          <p>Small-group barbell coaching built around squat, press, hinge and pull. Programmed in cycles, not random workouts.</p>
+        </div>
+        <div class="card">
+          <span class="num">02</span>
+          <h3>Conditioning</h3>
+          <p>High-output interval training using kettlebells, sleds and rowers. Built to raise your work capacity, not just break a sweat.</p>
+        </div>
+        <div class="card">
+          <span class="num">03</span>
+          <h3>Boxing</h3>
+          <p>Pad work and technical drilling for fitness and skill — no sparring required, all levels welcome.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHEDULE -->
+  <section id="classes" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>This week's schedule</h2>
+        <p>Filter by day to plan your sessions.</p>
+      </div>
+
+      <div class="class-filters" role="group" aria-label="Filter schedule by day">
+        <button type="button" class="active" data-day="all">All week</button>
+        <button type="button" data-day="mon">Mon</button>
+        <button type="button" data-day="wed">Wed</button>
+        <button type="button" data-day="fri">Fri</button>
+        <button type="button" data-day="sat">Sat</button>
+      </div>
+
+      <table class="schedule">
+        <caption>Times shown are local (SAST). Book any class from the contact page.</caption>
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Class</th>
+            <th scope="col">Coach</th>
+            <th scope="col">Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-day="mon">
+            <td>06:00</td><td>Strength</td><td>Naledi M.</td><td><span class="tag">All levels</span></td>
+          </tr>
+          <tr data-day="mon">
+            <td>17:30</td><td>Conditioning</td><td>Sipho D.</td><td><span class="tag">All levels</span></td>
+          </tr>
+          <tr data-day="wed">
+            <td>06:00</td><td>Boxing</td><td>Thabo R.</td><td><span class="tag">Beginner</span></td>
+          </tr>
+          <tr data-day="wed">
+            <td>18:00</td><td>Strength</td><td>Naledi M.</td><td><span class="tag">Intermediate</span></td>
+          </tr>
+          <tr data-day="fri">
+            <td>06:00</td><td>Conditioning</td><td>Sipho D.</td><td><span class="tag">All levels</span></td>
+          </tr>
+          <tr data-day="fri">
+            <td>17:00</td><td>Boxing</td><td>Thabo R.</td><td><span class="tag">All levels</span></td>
+          </tr>
+          <tr data-day="sat">
+            <td>08:00</td><td>Strength</td><td>Naledi M.</td><td><span class="tag">All levels</span></td>
+          </tr>
+          <tr data-day="sat">
+            <td>09:15</td><td>Conditioning</td><td>Sipho D.</td><td><span class="tag">All levels</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="membership">
+    <div class="container">
+      <div class="section-head">
+        <h2>Membership</h2>
+        <p>No joining fee. Freeze or cancel anytime with 7 days' notice.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Drop-in</h3>
+          <p class="price">R150<small>/class</small></p>
+          <ul>
+            <li>Any single class</li>
+            <li>Access to all three formats</li>
+            <li>No commitment</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline">Book a class</a>
+        </div>
+        <div class="price-card featured">
+          <h3>Unlimited</h3>
+          <p class="price">R1,450<small>/month</small></p>
+          <ul>
+            <li>Unlimited classes, all formats</li>
+            <li>Monthly progress check-in</li>
+            <li>Priority booking</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Join now</a>
+        </div>
+        <div class="price-card">
+          <h3>Student</h3>
+          <p class="price">R950<small>/month</small></p>
+          <ul>
+            <li>Unlimited classes, all formats</li>
+            <li>Valid student card required</li>
+            <li>Off-peak priority</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline">Join now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>What members say</h2>
+        <p>A few words from the floor.</p>
+      </div>
+      <div class="slider">
+        <div class="slide active">
+          <blockquote>"I'd tried three other gyms before Forge. This is the first place a coach actually watched my form and fixed it."</blockquote>
+          <cite>— Lerato N., member since 2024</cite>
+        </div>
+        <div class="slide">
+          <blockquote>"Small classes mean you're not just a number. I've hit three squat PRs this year."</blockquote>
+          <cite>— Dean P., member since 2023</cite>
+        </div>
+        <div class="slide">
+          <blockquote>"The boxing sessions are the best cardio I've done. Tough but the coaching makes it click."</blockquote>
+          <cite>— Amahle K., member since 2025</cite>
+        </div>
+        <div class="slider-controls">
+          <button type="button" data-slide="prev" aria-label="Previous testimonial">‹</button>
+          <button type="button" data-slide="next" aria-label="Next testimonial">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>Your first class is free</h2>
+      <p>No pressure, no sales pitch — just show up and train.</p>
+      <a href="contact.html" class="btn btn-primary">Book your free trial</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">FORGE<span>.</span></a>
+        <p style="margin-top:1rem;">124 Jorissen Street, Braamfontein, Johannesburg, 2001</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+27115550142">011 555 0142</a></li>
+          <li><a href="mailto:hello@forgefitness.co.za">hello@forgefitness.co.za</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://www.repssa.co.za/" target="_blank" rel="noopener">REPSSA registry</a></li>
+          <li><a href="https://www.saids.org.za/" target="_blank" rel="noopener">SAIDS — anti-doping info</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Forge Fitness Studio. All rights reserved.</p>
+      <div class="social-row">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Forge Fitness on Instagram">IG</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Forge Fitness on Facebook">FB</a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="Forge Fitness on TikTok">TT</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

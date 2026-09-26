@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Book a free trial class or get in touch with Forge Fitness Studio in Braamfontein, Johannesburg.">
+<meta name="author" content="Forge Fitness Studio">
+<title>Contact — Forge Fitness Studio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">FORGE<span>.</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="primary-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <div class="page-header container">
+    <span class="eyebrow">Get in touch</span>
+    <h1>Book your free trial class</h1>
+    <p>Fill in the form and a coach will reply within one business day to confirm a time.</p>
+  </div>
+
+  <section>
+    <div class="container form-layout">
+
+      <div>
+        <div id="form-status" role="status"></div>
+        <form class="contact-form" action="php/contact.php" method="POST" novalidate>
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required minlength="2" autocomplete="name">
+            <p class="error-msg">Please enter your full name.</p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+            <p class="error-msg">Please enter a valid email address.</p>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone number <span style="text-transform:none;font-weight:400;">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel">
+            <p class="error-msg">Please enter a valid phone number.</p>
+          </div>
+
+          <div class="field">
+            <label for="goal">What are you interested in?</label>
+            <select id="goal" name="goal">
+              <option value="Strength">Strength classes</option>
+              <option value="Conditioning">Conditioning classes</option>
+              <option value="Boxing">Boxing classes</option>
+              <option value="Unsure">Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required minlength="10" placeholder="Tell us a bit about your training background and goals."></textarea>
+            <p class="error-msg">Please include a short message (at least 10 characters).</p>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note">We'll never share your details. See how we handle enquiries in our front-desk privacy notice, available on request.</p>
+        </form>
+      </div>
+
+      <aside>
+        <ul class="info-list">
+          <li>
+            <span class="label">Address</span>
+            124 Jorissen Street, Braamfontein, Johannesburg, 2001
+          </li>
+          <li>
+            <span class="label">Phone</span>
+            <a href="tel:+27115550142">011 555 0142</a>
+          </li>
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:hello@forgefitness.co.za">hello@forgefitness.co.za</a>
+          </li>
+        </ul>
+
+        <table class="schedule">
+          <caption>Studio hours</caption>
+          <tbody>
+            <tr><td>Monday – Friday</td><td>05:30 – 20:00</td></tr>
+            <tr><td>Saturday</td><td>07:00 – 13:00</td></tr>
+            <tr><td>Sunday</td><td>Closed</td></tr>
+          </tbody>
+        </table>
+
+        <iframe class="map-frame" style="margin-top:2rem;"
+          src="https://www.google.com/maps?q=Jorissen+Street,+Braamfontein,+Johannesburg&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Map showing Forge Fitness Studio location in Braamfontein, Johannesburg">
+        </iframe>
+        <p style="margin-top:0.75rem;">
+          <a href="https://www.google.com/maps/search/?api=1&query=Jorissen+Street+Braamfontein+Johannesburg" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+        </p>
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">FORGE<span>.</span></a>
+        <p style="margin-top:1rem;">124 Jorissen Street, Braamfontein, Johannesburg, 2001</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+27115550142">011 555 0142</a></li>
+          <li><a href="mailto:hello@forgefitness.co.za">hello@forgefitness.co.za</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://www.repssa.co.za/" target="_blank" rel="noopener">REPSSA registry</a></li>
+          <li><a href="https://www.saids.org.za/" target="_blank" rel="noopener">SAIDS — anti-doping info</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Forge Fitness Studio. All rights reserved.</p>
+      <div class="social-row">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Forge Fitness on Instagram">IG</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Forge Fitness on Facebook">FB</a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="Forge Fitness on TikTok">TT</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
